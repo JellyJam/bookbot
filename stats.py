@@ -30,5 +30,5 @@ def sorted_list_of_dictionaries(unsorted_dictionary):
     sorted_list = []
     for key in unsorted_dictionary:
         sorted_list.append({"char":key, "num":unsorted_dictionary.get(key)})
-    sorted_list.sort(reverse=True, key=sort_on)    
+    sorted_list.sort(reverse=True, key=sort_on)
     return sorted_list
